@@ -4,14 +4,10 @@
 2. JRE se refere a Java Runtime Environment que é software capaz de executar Java, enquanto que JDK se refere a Java Development Kit que é o conjunto de ferramentas necessárias para criar um programa em Java. Dessa forma, é preciso ter o JRE, mas não o JDK, para executar os programas criados.
 
 
-3. `Questao3.java`
+3. `Questao3.java e Questao3Naline.java`
 
 
-4. `
-   Error: Could not find or load main class Questao3
-   Caused by: java.lang.ClassNotFoundException: Questao3
-   `  
-Ou seja, erro por não encontrar o arquivo para executar.
+4. Ainda é possível executar o programa. O compilador gerou novamente o arquivo .class.
 
 
 5. `
@@ -22,16 +18,16 @@ Ou seja, erro por não encontrar o arquivo para executar.
 Ou seja, erro por não encontrar a função main para executar o programa.
 
 
-6. `Questao6.java`
+6. `Questao6.java e Questao6Naline.java`
 
 
 7. Nem mesmo compila:  
    `
    questao6diferente.java:1: error: class, interface, or enum expected  
-   PUBLIC CLASS QUESTAO6{  
+   PUBLIC CLASS QUESTAO6NALINE{  
    ^  
    questao6diferente.java:4: error: class, interface, or enum expected  
-   SYSTEM.OUT.PRINTLN("UNDEFINED");  
+   SYSTEM.OUT.PRINTLN("FLAMENGO");  
    ^  
    questao6diferente.java:5: error: class, interface, or enum expected  
    }  
